@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Will You Be My Valentine?</title>
+ <style>
+    /* Center-align the h1 element */
+    h1 {
+      text-align: center;
+      margin-top: 20vh; /* Adjust as needed */
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("file:///C:/Users/minha/Downloads/little-red-heart-background_53876-98915.avif");
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .button-container button {
+      font-size: 1.2em;
+      padding: 10px 20px;
+      background-color: #FFC0CB; /* light pink */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 0 10px; /* Add some space between buttons */
+    }
+
+    .button-container button:hover {
+      background-color: #FFA07A; /* light salmon */
+    }
+
+    img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+ </style>
+</head>
+<body>
+    
+<img src="file:///C:/Users/minha/Downloads/i%20love%20you%20gif.gif" alt="I Love You GIF">
+
+<h1>Will You Be My Valentine?</h1>
+
+<div class="button-container">
+  <button onclick="yesClicked()">Yes</button>
+  <button onclick="noClicked()">No</button>
+</div>
+
+<script>
+  function yesClicked() {
+    alert("Yay! Be ready by 7pm tonight! Dress up nice and I'll pick you up:)");
+  }
+
+  function noClicked() {
+    alert("ERROR: Please try again.");
+  }
+</script>
+
+</body>
+</html>
