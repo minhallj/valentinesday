@@ -6,7 +6,7 @@
  <title>Welcome to my website</title>
  <style>
     body {
-      background-image: url("file:///C:/Users/minha/Downloads/little-red-heart-background_53876-98915.avif");
+      background-image: url("download image for background image, right click on the file, and paste the path in this area");
       background-size: cover;
       background-position: center;
       font-family: Arial, sans-serif;
@@ -47,9 +47,9 @@
  </style>
 </head>
 <body>
- <img src="C:\Users\minha\Downloads\new image ok.gif" alt="GIF Image">
+ <img src="download gif for background image, right click on the file, and paste the path in this area" alt="GIF Image">
 
- <p>The day we started talking, I had no idea that I would fall for you this hard. However, as time progressed, 
+ <p> Here you can put a personalized message, for example: The day we started talking, I had no idea that I would fall for you this hard. However, as time progressed, 
     I can't keep denying my feeling for you.
     Our time together has been so amazing and I hope every single day I can wake up with you in my life.
     The way you smile, the way you laugh, the way you inspire me to do better.
@@ -61,7 +61,7 @@
  <script>
   function openNewPage() {
     // Change 'new_page.html' to the relative path of your page in your project
-    window.open('file:///C:/Users/minha/books/main%20page.html', '_blank');
+    window.open('copy the path for your html page 2 and paste it here', '_blank');
   }
  </script>
 </body>
