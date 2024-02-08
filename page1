@@ -6,7 +6,7 @@
  <title>Welcome to my website</title>
  <style>
     body {
-      background-image: url("download image for background image, right click on the file, and paste the path in this area");
+      background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Ffree-valentine-wallpaper-for-desktop-google-search--268316090278610379%2F&psig=AOvVaw3Uo9xXkNpDUIBNV-Ht9RuJ&ust=1707436960592000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIj8iOC4moQDFQAAAAAdAAAAABAK"); /* Replace with the URL of your background image */
       background-size: cover;
       background-position: center;
       font-family: Arial, sans-serif;
@@ -47,9 +47,9 @@
  </style>
 </head>
 <body>
- <img src="download gif for background image, right click on the file, and paste the path in this area" alt="GIF Image">
+ <img src="https://media.tenor.com/hpgCwxnBaK8AAAAi/milk-and-mocha.gif" alt="GIF Image"> <!-- Replace with the URL of your GIF -->
 
- <p> Here you can put a personalized message, for example: The day we started talking, I had no idea that I would fall for you this hard. However, as time progressed, 
+ <p>The day we started talking, I had no idea that I would fall for you this hard. However, as time progressed, 
     I can't keep denying my feeling for you.
     Our time together has been so amazing and I hope every single day I can wake up with you in my life.
     The way you smile, the way you laugh, the way you inspire me to do better.
@@ -60,9 +60,85 @@
 
  <script>
   function openNewPage() {
-    // Change 'new_page.html' to the relative path of your page in your project
-    window.open('copy the path for your html page 2 and paste it here', '_blank');
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Will You Be My Valentine?</title>
+ <style>
+    /* Center-align the h1 element */
+    h1 {
+      text-align: center;
+      margin-top: 20vh; /* Adjust as needed */
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Ffree-valentine-wallpaper-for-desktop-google-search--268316090278610379%2F&psig=AOvVaw3Uo9xXkNpDUIBNV-Ht9RuJ&ust=1707436960592000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIj8iOC4moQDFQAAAAAdAAAAABAK");
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .button-container button {
+      font-size: 1.2em;
+      padding: 10px 20px;
+      background-color: #FFC0CB; /* light pink */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 0 10px; /* Add some space between buttons */
+    }
+
+    .button-container button:hover {
+      background-color: #FFA07A; /* light salmon */
+    }
+
+    img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+ </style>
+</head>
+<body>
+    
+ <img src="https://i.pinimg.com/originals/8c/17/36/8c1736f9c108a29ab50ed252a880c480.gif" alt="I Love You GIF">
+
+<h1>Will You Be My Valentine?</h1>
+
+<div class="button-container">
+  <button onclick="yesClicked()">Yes</button>
+  <button onclick="noClicked()">No</button>
+</div>
+
+<script>
+  function yesClicked() {
+    alert("Yay! Be ready by 7pm tonight! Dress up nice and I'll pick you up:)");
+  }
+
+  function noClicked() {
+    alert("ERROR: Please try again.");
+  }
+</script>
+
+</body>
+</html>
+
   }
  </script>
 </body>
 </html>
+
